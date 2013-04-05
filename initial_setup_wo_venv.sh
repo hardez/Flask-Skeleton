@@ -1,16 +1,5 @@
 #!/bin/bash
 
-virtualenv venv
-
-cd venv
-
-. bin/activate
-
-pip install -r ../requiments.txt
-
-deactivate
-
-cd ..
 mkdir app/static
 cd app/static
 
